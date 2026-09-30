@@ -214,16 +214,7 @@
   "contact": {
     "title": "Contact",
     "eyebrow": "Discutons",
-    "subtitle": "Un stage de fin d'études, une opportunité ou simplement une question ? Écris-moi, je réponds rapidement.",
-    "name": "Nom",
-    "email": "Email",
-    "message": "Message",
-    "send": "Envoyer le message",
-    "sending": "Envoi en cours…",
-    "success": "Merci ! Ton message a bien été envoyé, je te réponds très vite.",
-    "error": "L'envoi a échoué. Réessaie ou écris-moi directement par email.",
-    "fallbackNote": "Le formulaire ouvrira ton client mail.",
-    "subject": "Contact depuis ton portfolio"
+    "subtitle": "Un stage de fin d'études, une opportunité ou simplement une question ? Écris-moi, je réponds rapidement."
   },
   "footer": {
     "top": "Retour en haut"

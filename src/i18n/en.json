@@ -214,16 +214,7 @@
   "contact": {
     "title": "Contact",
     "eyebrow": "Let's talk",
-    "subtitle": "An end-of-studies internship, an opportunity, or just a question? Write to me, I reply quickly.",
-    "name": "Name",
-    "email": "Email",
-    "message": "Message",
-    "send": "Send message",
-    "sending": "Sending…",
-    "success": "Thank you! Your message has been sent, I'll get back to you very soon.",
-    "error": "Sending failed. Please try again or email me directly.",
-    "fallbackNote": "The form will open your mail client.",
-    "subject": "Contact from your portfolio"
+    "subtitle": "An end-of-studies internship, an opportunity, or just a question? Write to me, I reply quickly."
   },
   "footer": {
     "top": "Back to top"

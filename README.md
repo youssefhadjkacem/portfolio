@@ -35,19 +35,12 @@ relance `npm run dev` (ou redéploie). Sans média, un visuel de repli est gén�
 | Compétences (et compteur de technos)   | `src/data/skills.ts` |
 | Couleur d'accent                       | variables `--accent*` dans `src/app/globals.css` |
 
-## Formulaire de contact (Formspree)
-
-1. Crée un formulaire sur https://formspree.io et copie son ID (ex. `xyzabcde`).
-2. Local : crée `.env.local` avec `NEXT_PUBLIC_FORMSPREE_ID=xyzabcde`.
-3. Vercel : *Project → Settings → Environment Variables*, ajoute la même variable, puis redéploie.
-
-Sans ID, le formulaire ouvre le client mail (`mailto:`) en repli.
 
 ## Déployer sur Vercel
 
 1. Pousse le projet sur GitHub (`git init`, commit, push).
 2. Sur https://vercel.com → *Add New… → Project* → importe le dépôt (Next.js détecté automatiquement, aucun réglage).
-3. Ajoute `NEXT_PUBLIC_FORMSPREE_ID`, puis *Deploy*. Chaque `git push` redéploie.
+3. Clique sur *Deploy* (aucune variable d'environnement nécessaire). Chaque `git push` redéploie.
 
 ## Langue, thème, accessibilité
 
