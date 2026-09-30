@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "title": "Youssef Hadjkacem — Data Scientist & AI/ML Engineer",
+    "description": "Portfolio de Youssef Hadjkacem, ingénieur Data Science / IA (ENSI) avec une vraie base backend & cloud, à la recherche d'un stage de fin d'études de 4 à 6 mois en Europe à partir de février 2027."
+  },
+  "a11y": {
+    "skip": "Aller au contenu",
+    "menu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "themeToLight": "Passer en mode clair",
+    "themeToDark": "Passer en mode sombre",
+    "language": "Langue du site",
+    "close": "Fermer",
+    "prev": "Précédent",
+    "next": "Suivant",
+    "openImage": "Agrandir l'image",
+    "scrollDown": "Défiler vers le bas"
+  },
+  "nav": {
+    "about": "À propos",
+    "experience": "Expériences",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "hackathons": "Hackathons",
+    "resume": "CV",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Recherche un stage de fin d'études · 4–6 mois · dès février 2027 · Europe",
+    "hello": "Bonjour, je suis",
+    "title": "Data Scientist & AI/ML Engineer",
+    "focus": "Focus",
+    "roles": ["Machine Learning & NLP", "LLMs, RAG & agents autonomes", "Analyse de données & séries temporelles", "+ Backend, cloud & sécurité en production"],
+    "tagline": "Étudiant ingénieur en dernière année à l'ENSI, je conçois des systèmes de data science et d'IA — modèles, pipelines RAG, agents — et je sais aussi les livrer : API, Docker, AWS, CI/CD et sécurité.",
+    "ctaContact": "Me contacter",
+    "ctaResume": "Télécharger mon CV",
+    "scroll": "Défiler"
+  },
+  "about": {
+    "title": "À propos",
+    "eyebrow": "Parcours",
+    "p1": "Étudiant ingénieur en dernière année à l'ENSI (École Nationale des Sciences de l'Informatique, Tunis) depuis septembre 2024, j'ai d'abord suivi deux années de classes préparatoires en mathématiques à la Faculté des Sciences de Sfax, où j'ai été classé 110ᵉ sur 1800.",
+    "p2": "Mon cœur de métier est la data science et l'IA/ML : modèles, NLP, LLMs, RAG et agents autonomes. J'y ajoute une vraie expérience backend et cloud (FastAPI, AWS, Docker, CI/CD, sécurité) pour livrer des systèmes fiables, traçables et déployables, pas seulement des prototypes.",
+    "p3": "Mes stages en télétravail en France et mes missions de bénévolat AIESEC en Roumanie et en Turquie m'ont appris à travailler en autonomie et dans des contextes multiculturels.",
+    "photoAlt": "Portrait de Youssef Hadjkacem",
+    "educationTitle": "Formation",
+    "education": [
+      { "school": "ENSI — École Nationale des Sciences de l'Informatique", "place": "Tunis, Tunisie", "period": "Sept. 2024 – 2027", "detail": "Cycle ingénieur en informatique — dernière année" },
+      { "school": "Classes préparatoires — Faculté des Sciences de Sfax", "place": "Sfax, Tunisie", "period": "Juin 2022 – Juin 2024", "detail": "Mathématiques · classement 110/1800" }
+    ],
+    "languagesTitle": "Langues",
+    "languages": [
+      { "name": "Arabe", "level": "Langue maternelle", "value": 100 },
+      { "name": "Anglais", "level": "C1", "value": 85 },
+      { "name": "Français", "level": "B2", "value": 70 }
+    ]
+  },
+  "stats": {
+    "title": "En chiffres",
+    "projects": "Projets réalisés",
+    "hackathons": "Hackathon international gagné",
+    "technologies": "Technologies maîtrisées",
+    "countries": "Pays d'expérience internationale",
+    "countriesHint": "Roumanie · Turquie · France (télétravail)"
+  },
+  "experience": {
+    "title": "Expériences",
+    "eyebrow": "Stages",
+    "items": {
+      "yonnovia": {
+        "role": "Stagiaire Data / IA",
+        "company": "Yonnov'IA",
+        "period": "Juin – Août 2026",
+        "place": "Télétravail, France",
+        "description": "Conception d'un copilote IA qui génère des devis commerciaux fiables et traçables à partir des historiques de ventes et des données CRM. Intégré à un ERP Odoo, exposé via une API REST FastAPI, déployé sur AWS (EC2, S3, IAM), avec une interface MCP pour l'interopérabilité avec des agents IA externes.",
+        "highlights": ["Knowledge Graph (NetworkX)", "API REST FastAPI", "Interface MCP"]
+      },
+      "lorraine": {
+        "role": "Stagiaire IA en Biomécanique & Exosquelette",
+        "company": "Université de Lorraine",
+        "period": "Juin – Août 2026",
+        "place": "Télétravail, France",
+        "description": "Création d'un jumeau numérique 3D d'un opérateur à partir de capture de mouvement monoculaire (Blender), analyse musculo-squelettique sous OpenSim et préparation de l'intégration dans MuJoCo/MyoSuite pour entraîner un contrôleur d'exosquelette par apprentissage par renforcement, via deux environnements Docker isolés.",
+        "highlights": ["Anomalies : 30 % → 0 %", "Pipeline de validation automatisée"]
+      },
+      "fogits": {
+        "role": "Stagiaire en Génie Logiciel",
+        "company": "Fogits",
+        "period": "Juin – Août 2025",
+        "place": "Sfax, Tunisie",
+        "description": "Automatisation de la collecte de leads LinkedIn grâce à un scraper Python (Selenium + BeautifulSoup) ayant traité plus de 800 profils, directement intégrés dans un ERP Odoo (PostgreSQL).",
+        "highlights": ["800+ profils traités", "−85 % de saisie manuelle"]
+      }
+    }
+  },
+  "projects": {
+    "title": "Projets",
+    "eyebrow": "Réalisations",
+    "subtitle": "Des projets Data & IA en priorité, complétés par des projets backend et sécurité qui montrent que je sais aussi construire des systèmes robustes en production. Clique sur une carte pour le détail, les captures et la démo.",
+    "filterLabel": "Filtrer par domaine",
+    "all": "Tous",
+    "tags": { "data": "Data Science", "ai": "IA / ML", "engineering": "Ingénierie & production" },
+    "award": "1er Prix",
+    "internship": "Stage",
+    "viewDetails": "Voir le détail",
+    "demo": "Démo",
+    "demoVideo": "Vidéo de démo",
+    "gallery": "Captures d'écran",
+    "technologies": "Technologies",
+    "github": "Code sur GitHub",
+    "live": "Voir la démo live",
+    "noResults": "Aucun projet pour ce filtre.",
+    "imageOf": "Capture {n} sur {total}",
+    "items": {
+      "copilote-devis": {
+        "title": "Copilote IA de devis commerciaux",
+        "tagline": "Des devis fiables et traçables, intégrés à l'ERP Odoo",
+        "description": "Conception d'un copilote IA qui génère des devis commerciaux fiables et traçables à partir des historiques de ventes et des données CRM. Intégré à un ERP Odoo, exposé via une API REST FastAPI, déployé sur AWS (EC2, S3, IAM), avec une interface MCP pour l'interopérabilité avec des agents IA externes."
+      },
+      "jumeau-numerique-exosquelette": {
+        "title": "Jumeau numérique 3D & exosquelette",
+        "tagline": "De la capture de mouvement monoculaire au contrôleur d'exosquelette",
+        "description": "Création d'un jumeau numérique 3D d'un opérateur à partir de capture de mouvement monoculaire (Blender), analyse musculo-squelettique sous OpenSim et préparation de l'intégration dans MuJoCo/MyoSuite pour entraîner un contrôleur d'exosquelette par apprentissage par renforcement, via deux environnements Docker isolés. Pipeline de validation automatisée : taux d'anomalies réduit de 30 % à 0 %."
+      },
+      "financial-inclusion": {
+        "title": "Financial Inclusion Platform",
+        "tagline": "Tontine digitale pour l'épargne collective en zones rurales",
+        "description": "Plateforme de tontine digitale destinée à l'épargne collective en zones rurales : elle gère les cycles de cotisation et l'attribution rotative du pot, via une API REST sécurisée (Django REST, JWT) et une simulation de cotisations par mobile money. Développée en 48 h, elle a remporté le 1er Prix du hackathon international ACCEDE Internationale."
+      },
+      "ai-emergency-savior": {
+        "title": "AI Emergency Savior",
+        "tagline": "De la voix du patient au bon prestataire de soins d'urgence",
+        "description": "Pipeline NLP (fine-tuning LoRA de Whisper) qui classifie des symptômes vocaux avec un mapping ICD-10 / SNOMED CT, couplé à un moteur d'optimisation multi-objectif (NSGA-II) pour recommander un prestataire de soins d'urgence en tenant compte de plusieurs contraintes en temps réel. Démo déployée sur Hugging Face Spaces."
+      },
+      "genai-rag-agent": {
+        "title": "GenAI Pipeline & Industrial RAG System",
+        "tagline": "RAG complet piloté par un agent IA autonome sur LLM local",
+        "description": "Système RAG complet (FAISS, base vectorielle) avec prompt engineering et évaluation LLM-as-judge, orchestré par un agent IA autonome (LangGraph, ReAct) fonctionnant sur un LLM local."
+      },
+      "microservices-cicd": {
+        "title": "Microservices API avec CI/CD",
+        "tagline": "Du monolithe aux microservices FastAPI",
+        "description": "Découpage d'un service monolithique en microservices FastAPI communiquant via Redis, orchestrés avec Docker Compose et livrés par un pipeline CI/CD (GitHub Actions)."
+      },
+      "secure-transaction-api": {
+        "title": "Secure Financial Transaction API",
+        "tagline": "API de transactions sécurisée et conforme RGPD",
+        "description": "API sécurisée (authentification JWT, chiffrement, endpoints conformes RGPD) avec traitement asynchrone des lots de transactions (Celery) et journalisation."
+      },
+      "sales-forecasting": {
+        "title": "Prévision de ventes par séries temporelles",
+        "tagline": "Anticiper la demande : tendance et saisonnalité",
+        "description": "Analyse exploratoire (EDA) et modélisation de séries temporelles avec Prophet pour anticiper la demande en capturant tendance et saisonnalité, évaluée par MAE et RMSE."
+      },
+      "llm-ticket-classification": {
+        "title": "LLM Fine-tuning pour classification de tickets",
+        "tagline": "Détecter l'intention des tickets support",
+        "description": "Fine-tuning d'un LLM open-source via PEFT pour classifier l'intention de tickets de support, avec suivi des expériences MLflow et quantization (GGUF) pour une inférence locale."
+      }
+    }
+  },
+  "skills": {
+    "title": "Compétences",
+    "eyebrow": "Boîte à outils",
+    "coreTitle": "Cœur de métier : Data & IA",
+    "complementTitle": "Compétences complémentaires : des systèmes robustes en production",
+    "categories": {
+      "languages": "Langages",
+      "data": "Data & Machine Learning",
+      "ai": "IA & LLM",
+      "backend": "Backend & API",
+      "databases": "Bases de données",
+      "cloud": "Cloud & DevOps",
+      "security": "Sécurité",
+      "tools": "Outils"
+    }
+  },
+  "hackathons": {
+    "title": "Hackathons & International",
+    "eyebrow": "Engagement",
+    "winTitle": "1er Prix — ACCEDE Internationale",
+    "winSubtitle": "Hackathon international",
+    "winText": "En 48 heures, mon équipe a conçu une plateforme de tontine digitale pour l'épargne collective en zones rurales : cycles de cotisation, attribution rotative du pot, API REST sécurisée (Django REST, JWT) et simulation de cotisations par mobile money.",
+    "winCta": "Voir le projet",
+    "othersTitle": "Quelques hackathons auxquels j'ai participé",
+    "othersPhotoAlt": "Autres hackathons — photo {n} sur {total}",
+    "winPhotoAlt": "Photo du hackathon international ACCEDE Internationale",
+    "winFacts": ["48 h", "Django REST · JWT", "Inclusion financière"],
+    "international": "Expérience internationale & leadership",
+    "items": [
+      { "id": "aiesec-roumanie", "photoAlt": "Photo de ma mission AIESEC à Târgu Jiu, Roumanie", "org": "AIESEC", "role": "Professeur de Python", "place": "Târgu Jiu, Roumanie", "kind": "international" },
+      { "id": "aiesec-turquie", "photoAlt": "Photo de ma mission AIESEC à Gaziantep, Turquie", "org": "AIESEC", "role": "Professeur d'anglais", "place": "Gaziantep, Turquie", "kind": "international" },
+      { "id": "eje-relations-internationales", "photoAlt": "Photo de l'ENSI Junior Enterprise (EJE)", "org": "ENSI Junior Enterprise (EJE)", "role": "Responsable des Relations Internationales", "place": "Tunis, Tunisie", "kind": "leadership" }
+    ],
+    "kinds": { "international": "Volontariat international", "leadership": "Leadership" }
+  },
+  "resume": {
+    "title": "CV",
+    "eyebrow": "Télécharger",
+    "subtitle": "Mes CV principaux sont orientés Data Science et IA/ML, en français et en anglais.",
+    "primaryTitle": "CV principaux",
+    "otherTitle": "Autres spécialisations",
+    "otherHint": "CV alternatifs selon le poste visé (backend, cloud, fintech).",
+    "language": "Langue du CV",
+    "download": "Télécharger le PDF",
+    "unavailable": "Bientôt disponible",
+    "domains": {
+      "data": { "name": "Data Scientist", "desc": "Analyse de données, modélisation, séries temporelles, ML." },
+      "ai": { "name": "IA / ML", "desc": "Agents, RAG, LLMs, fine-tuning et NLP." },
+      "cloud": { "name": "Cloud / Backend", "desc": "API, microservices, AWS, Docker et CI/CD." },
+      "fintech": { "name": "Fintech / Backend Security", "desc": "API sécurisées, JWT, chiffrement, conformité RGPD." }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "eyebrow": "Discutons",
+    "subtitle": "Un stage de fin d'études, une opportunité ou simplement une question ? Écris-moi, je réponds rapidement.",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours…",
+    "success": "Merci ! Ton message a bien été envoyé, je te réponds très vite.",
+    "error": "L'envoi a échoué. Réessaie ou écris-moi directement par email.",
+    "fallbackNote": "Le formulaire ouvrira ton client mail.",
+    "subject": "Contact depuis ton portfolio"
+  },
+  "footer": {
+    "top": "Retour en haut"
+  }
+}
+

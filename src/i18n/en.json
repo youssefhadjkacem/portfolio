@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "title": "Youssef Hadjkacem — Data Scientist & AI/ML Engineer",
+    "description": "Portfolio of Youssef Hadjkacem, Data Science / AI engineer (ENSI) with solid backend & cloud experience, looking for a 4–6 month end-of-studies internship in Europe starting February 2027."
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "menu": "Open menu",
+    "closeMenu": "Close menu",
+    "themeToLight": "Switch to light mode",
+    "themeToDark": "Switch to dark mode",
+    "language": "Site language",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next",
+    "openImage": "Enlarge image",
+    "scrollDown": "Scroll down"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "hackathons": "Hackathons",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Seeking an end-of-studies internship · 4–6 months · from February 2027 · Europe",
+    "hello": "Hi, I'm",
+    "title": "Data Scientist & AI/ML Engineer",
+    "focus": "Focus",
+    "roles": ["Machine Learning & NLP", "LLMs, RAG & autonomous agents", "Data analysis & time series", "+ Backend, cloud & security in production"],
+    "tagline": "Final-year engineering student at ENSI, I build data science and AI systems — models, RAG pipelines, agents — and I know how to ship them: APIs, Docker, AWS, CI/CD and security.",
+    "ctaContact": "Get in touch",
+    "ctaResume": "Download my resume",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "About",
+    "eyebrow": "Background",
+    "p1": "I'm a final-year engineering student at ENSI (École Nationale des Sciences de l'Informatique, Tunis) since September 2024. Before that, I completed two years of preparatory classes in mathematics at the Faculty of Sciences of Sfax, ranking 110th out of 1800.",
+    "p2": "My core is data science and AI/ML: models, NLP, LLMs, RAG and autonomous agents. On top of that I bring real backend and cloud experience (FastAPI, AWS, Docker, CI/CD, security) to ship systems that are reliable, traceable and deployable, not just prototypes.",
+    "p3": "Remote internships in France and AIESEC volunteering in Romania and Turkey taught me to work autonomously and in multicultural environments.",
+    "photoAlt": "Portrait of Youssef Hadjkacem",
+    "educationTitle": "Education",
+    "education": [
+      { "school": "ENSI — National School of Computer Science", "place": "Tunis, Tunisia", "period": "Sept. 2024 – 2027", "detail": "Engineering degree in computer science — final year" },
+      { "school": "Preparatory classes — Faculty of Sciences of Sfax", "place": "Sfax, Tunisia", "period": "June 2022 – June 2024", "detail": "Mathematics · ranked 110/1800" }
+    ],
+    "languagesTitle": "Languages",
+    "languages": [
+      { "name": "Arabic", "level": "Native", "value": 100 },
+      { "name": "English", "level": "C1", "value": 85 },
+      { "name": "French", "level": "B2", "value": 70 }
+    ]
+  },
+  "stats": {
+    "title": "By the numbers",
+    "projects": "Projects built",
+    "hackathons": "International hackathon won",
+    "technologies": "Technologies mastered",
+    "countries": "Countries of international experience",
+    "countriesHint": "Romania · Turkey · France (remote)"
+  },
+  "experience": {
+    "title": "Experience",
+    "eyebrow": "Internships",
+    "items": {
+      "yonnovia": {
+        "role": "Data/AI Intern",
+        "company": "Yonnov'IA",
+        "period": "June – Aug. 2026",
+        "place": "Remote, France",
+        "description": "Designed an AI copilot that generates reliable, traceable sales quotes from sales history and CRM data. Integrated with an Odoo ERP, exposed through a FastAPI REST API, deployed on AWS (EC2, S3, IAM), with an MCP interface for interoperability with external AI agents.",
+        "highlights": ["Knowledge Graph (NetworkX)", "FastAPI REST API", "MCP interface"]
+      },
+      "lorraine": {
+        "role": "AI Intern in Biomechanics & Exoskeleton",
+        "company": "Université de Lorraine",
+        "period": "June – Aug. 2026",
+        "place": "Remote, France",
+        "description": "Built a 3D digital twin of an operator from monocular motion capture (Blender), ran musculoskeletal analysis in OpenSim and prepared the integration into MuJoCo/MyoSuite to train an exoskeleton controller with reinforcement learning, using two isolated Docker environments.",
+        "highlights": ["Anomalies: 30% → 0%", "Automated validation pipeline"]
+      },
+      "fogits": {
+        "role": "Software Engineering Intern",
+        "company": "Fogits",
+        "period": "June – Aug. 2025",
+        "place": "Sfax, Tunisia",
+        "description": "Automated LinkedIn lead collection with a Python scraper (Selenium + BeautifulSoup) that processed more than 800 profiles, fed directly into an Odoo ERP (PostgreSQL).",
+        "highlights": ["800+ profiles processed", "−85% manual data entry"]
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "eyebrow": "Work",
+    "subtitle": "Data & AI projects first, complemented by backend and security projects that show I can also build robust production systems. Click a card for details, screenshots and the demo.",
+    "filterLabel": "Filter by domain",
+    "all": "All",
+    "tags": { "data": "Data Science", "ai": "AI / ML", "engineering": "Engineering & production" },
+    "award": "1st Prize",
+    "internship": "Internship",
+    "viewDetails": "View details",
+    "demo": "Demo",
+    "demoVideo": "Demo video",
+    "gallery": "Screenshots",
+    "technologies": "Technologies",
+    "github": "Code on GitHub",
+    "live": "View live demo",
+    "noResults": "No project matches this filter.",
+    "imageOf": "Screenshot {n} of {total}",
+    "items": {
+      "copilote-devis": {
+        "title": "AI Sales Quote Copilot",
+        "tagline": "Reliable, traceable quotes integrated with the Odoo ERP",
+        "description": "Designed an AI copilot that generates reliable, traceable sales quotes from sales history and CRM data. Integrated with an Odoo ERP, exposed through a FastAPI REST API, deployed on AWS (EC2, S3, IAM), with an MCP interface for interoperability with external AI agents."
+      },
+      "jumeau-numerique-exosquelette": {
+        "title": "3D Digital Twin & Exoskeleton",
+        "tagline": "From monocular motion capture to an exoskeleton controller",
+        "description": "Built a 3D digital twin of an operator from monocular motion capture (Blender), ran musculoskeletal analysis in OpenSim and prepared the integration into MuJoCo/MyoSuite to train an exoskeleton controller with reinforcement learning, using two isolated Docker environments. Automated validation pipeline: anomaly rate reduced from 30% to 0%."
+      },
+      "financial-inclusion": {
+        "title": "Financial Inclusion Platform",
+        "tagline": "Digital tontine for collective savings in rural areas",
+        "description": "A digital tontine platform for collective savings in rural areas: it manages contribution cycles and the rotating payout, through a secure REST API (Django REST, JWT) and simulated mobile money contributions. Built in 48 hours, it won 1st Prize at the ACCEDE Internationale international hackathon."
+      },
+      "ai-emergency-savior": {
+        "title": "AI Emergency Savior",
+        "tagline": "From the patient's voice to the right emergency care provider",
+        "description": "An NLP pipeline (LoRA fine-tuning of Whisper) that classifies spoken symptoms with an ICD-10 / SNOMED CT mapping, coupled with a multi-objective optimization engine (NSGA-II) that recommends an emergency care provider under several real-time constraints. Demo deployed on Hugging Face Spaces."
+      },
+      "genai-rag-agent": {
+        "title": "GenAI Pipeline & Industrial RAG System",
+        "tagline": "End-to-end RAG driven by an autonomous AI agent on a local LLM",
+        "description": "A complete RAG system (FAISS vector store) with prompt engineering and LLM-as-judge evaluation, orchestrated by an autonomous AI agent (LangGraph, ReAct) running on a local LLM."
+      },
+      "microservices-cicd": {
+        "title": "Microservices API with CI/CD",
+        "tagline": "From monolith to FastAPI microservices",
+        "description": "Split a monolithic service into FastAPI microservices communicating through Redis, orchestrated with Docker Compose and delivered by a CI/CD pipeline (GitHub Actions)."
+      },
+      "secure-transaction-api": {
+        "title": "Secure Financial Transaction API",
+        "tagline": "Secure, GDPR-compliant transactions API",
+        "description": "A secure API (JWT authentication, encryption, GDPR-compliant endpoints) with asynchronous processing of transaction batches (Celery) and logging."
+      },
+      "sales-forecasting": {
+        "title": "Sales Forecasting with Time Series",
+        "tagline": "Anticipating demand: trend and seasonality",
+        "description": "Exploratory data analysis (EDA) and time-series modeling with Prophet to anticipate demand by capturing trend and seasonality, evaluated with MAE and RMSE."
+      },
+      "llm-ticket-classification": {
+        "title": "LLM Fine-tuning for Ticket Classification",
+        "tagline": "Detecting the intent of support tickets",
+        "description": "Fine-tuned an open-source LLM with PEFT to classify support ticket intent, with MLflow experiment tracking and quantization (GGUF) for local inference."
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "eyebrow": "Toolbox",
+    "coreTitle": "Core: Data & AI",
+    "complementTitle": "Complementary: robust production systems",
+    "categories": {
+      "languages": "Languages",
+      "data": "Data & Machine Learning",
+      "ai": "AI & LLM",
+      "backend": "Backend & API",
+      "databases": "Databases",
+      "cloud": "Cloud & DevOps",
+      "security": "Security",
+      "tools": "Tools"
+    }
+  },
+  "hackathons": {
+    "title": "Hackathons & International",
+    "eyebrow": "Engagement",
+    "winTitle": "1st Prize — ACCEDE Internationale",
+    "winSubtitle": "International hackathon",
+    "winText": "In 48 hours, my team built a digital tontine platform for collective savings in rural areas: contribution cycles, rotating payout, a secure REST API (Django REST, JWT) and simulated mobile money contributions.",
+    "winCta": "View the project",
+    "othersTitle": "A few hackathons I've taken part in",
+    "othersPhotoAlt": "Other hackathons — photo {n} of {total}",
+    "winPhotoAlt": "Photo from the ACCEDE Internationale international hackathon",
+    "winFacts": ["48 h", "Django REST · JWT", "Financial inclusion"],
+    "international": "International experience & leadership",
+    "items": [
+      { "id": "aiesec-roumanie", "photoAlt": "Photo from my AIESEC mission in Târgu Jiu, Romania", "org": "AIESEC", "role": "Python Teacher", "place": "Târgu Jiu, Romania", "kind": "international" },
+      { "id": "aiesec-turquie", "photoAlt": "Photo from my AIESEC mission in Gaziantep, Turkey", "org": "AIESEC", "role": "English Teacher", "place": "Gaziantep, Turkey", "kind": "international" },
+      { "id": "eje-relations-internationales", "photoAlt": "Photo of ENSI Junior Enterprise (EJE)", "org": "ENSI Junior Enterprise (EJE)", "role": "International Relations Manager", "place": "Tunis, Tunisia", "kind": "leadership" }
+    ],
+    "kinds": { "international": "International volunteering", "leadership": "Leadership" }
+  },
+  "resume": {
+    "title": "Resume",
+    "eyebrow": "Download",
+    "subtitle": "My main resumes focus on Data Science and AI/ML, in French and English.",
+    "primaryTitle": "Main resumes",
+    "otherTitle": "Other specializations",
+    "otherHint": "Alternative resumes depending on the target role (backend, cloud, fintech).",
+    "language": "Resume language",
+    "download": "Download PDF",
+    "unavailable": "Coming soon",
+    "domains": {
+      "data": { "name": "Data Scientist", "desc": "Data analysis, modeling, time series, ML." },
+      "ai": { "name": "AI / ML", "desc": "Agents, RAG, LLMs, fine-tuning and NLP." },
+      "cloud": { "name": "Cloud / Backend", "desc": "APIs, microservices, AWS, Docker and CI/CD." },
+      "fintech": { "name": "Fintech / Backend Security", "desc": "Secure APIs, JWT, encryption, GDPR compliance." }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "eyebrow": "Let's talk",
+    "subtitle": "An end-of-studies internship, an opportunity, or just a question? Write to me, I reply quickly.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Thank you! Your message has been sent, I'll get back to you very soon.",
+    "error": "Sending failed. Please try again or email me directly.",
+    "fallbackNote": "The form will open your mail client.",
+    "subject": "Contact from your portfolio"
+  },
+  "footer": {
+    "top": "Back to top"
+  }
+}
+

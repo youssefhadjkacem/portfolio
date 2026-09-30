@@ -1,0 +1,20 @@
+node_modules
+.next
+out
+.env*.local
+next-env.d.ts
+*.tsbuildinfo
+
+# Vidéos/médias sources volumineux (non publiés)
+media-originals
+
+# Secrets / environnement (le modèle .env.example, lui, est versionné)
+.env
+.env.*
+!.env.example
+
+# Divers
+.vercel
+.DS_Store
+*.log
+npm-debug.log*

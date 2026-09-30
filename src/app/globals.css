@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+/* ───────── Thème : encre / ardoise + un seul accent indigo ───────── */
+:root,
+:root[data-theme="dark"] {
+  --bg: #0a0c16;
+  --bg-2: #0e1120;
+  --surface: #121527;
+  --surface-2: #181c33;
+  --line: rgba(148, 163, 220, 0.16);
+  --fg: #e8eaf6;
+  --muted: #a0a7c2;
+  --accent: #818cf8;
+  --accent-strong: #6366f1;
+  --accent-rgb: 129 140 248;
+  --on-accent: #0a0c16;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --bg: #f6f7fc;
+  --bg-2: #eef0fa;
+  --surface: #ffffff;
+  --surface-2: #f1f2fb;
+  --line: rgba(67, 56, 202, 0.16);
+  --fg: #12142b;
+  --muted: #4f5578;
+  --accent: #4f46e5;
+  --accent-strong: #4338ca;
+  --accent-rgb: 79 70 229;
+  --on-accent: #ffffff;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg2: var(--bg-2);
+  --color-surface: var(--surface);
+  --color-surface2: var(--surface-2);
+  --color-line: var(--line);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-on-accent: var(--on-accent);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jb), ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgb(var(--accent-rgb) / 0.35);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* Révélation circulaire du changement de thème (View Transitions API) */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-old(root) {
+  z-index: 1;
+}
+::view-transition-new(root) {
+  z-index: 2;
+}
+
+/* Fond dégradé discret pour les sections alternées */
+.section-alt {
+  background: linear-gradient(180deg, transparent, var(--bg-2) 20%, var(--bg-2) 80%, transparent);
+}
+
+/* Grille de points subtile */
+.dot-grid {
+  background-image: radial-gradient(rgb(var(--accent-rgb) / 0.18) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Visuel de repli animé des cartes projets (sans média) */
+@keyframes fb-flow {
+  to {
+    stroke-dashoffset: -14;
+  }
+}
+@keyframes fb-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+  50% {
+    transform: scale(1.9);
+    opacity: 1;
+  }
+}
+@keyframes fb-sweep {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(320%);
+  }
+}
+.fb-line {
+  stroke-dasharray: 3 4;
+  animation: fb-flow 5s linear infinite;
+}
+.fb-node {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: fb-pulse 3.4s ease-in-out infinite;
+}
+.fb-glow {
+  animation: fb-sweep 9s ease-in-out infinite alternate;
+}
+
+/* Photos de la section Hackathons : anneau lumineux et reflet (voir TiltPhoto) */
+@keyframes photo-ring {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes photo-shine {
+  0%,
+  55% {
+    transform: translateX(-120%) skewX(-20deg);
+  }
+  100% {
+    transform: translateX(520%) skewX(-20deg);
+  }
+}
+.photo-ring {
+  animation: photo-ring 7s linear infinite;
+}
+.photo-shine {
+  animation: photo-shine 6s ease-in-out infinite;
+}
